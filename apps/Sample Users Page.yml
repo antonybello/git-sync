@@ -405,14 +405,6 @@ appTemplate:
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
                 - recordUpdates:
-                    ordered:
-                      - array: []
-                - newRow: null
-                - columnEditable:
-                    ordered: []
-                - filters:
-                    ordered:
-                      - array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
@@ -853,15 +845,6 @@ appTemplate:
                 - defaultSortDescending: false
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
-                - recordUpdates:
-                    ordered:
-                      - array: []
-                - newRow: null
-                - columnEditable:
-                    ordered: []
-                - filters:
-                    ordered:
-                      - array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
@@ -1279,15 +1262,6 @@ appTemplate:
                 - defaultSortDescending: false
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
-                - recordUpdates:
-                    ordered:
-                      - array: []
-                - newRow: null
-                - columnEditable:
-                    ordered: []
-                - filters:
-                    ordered:
-                      - array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
