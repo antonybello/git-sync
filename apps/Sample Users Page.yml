@@ -404,7 +404,6 @@ appTemplate:
                 - defaultSortDescending: false
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
-                - recordUpdates:
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
