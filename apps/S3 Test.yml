@@ -8,7 +8,7 @@ appTemplate:
             id: hardcoded
             type: datasource
             subtype: S3Query
-            resourceName: Antonys S3 Instance (Hard coded)
+            resourceName: Hard Coded S3 Instance
             template:
               ordered:
                 - queryRefreshTime: ''
@@ -77,7 +77,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-02T02:01:07.480Z
-            updatedAt: 2020-12-05T01:14:42.638Z
+            updatedAt: 2020-12-05T01:16:18.647Z
       - filepicker1:
           pluginTemplate:
             id: filepicker1
