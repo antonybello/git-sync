@@ -122,7 +122,7 @@ appTemplate:
                 - labelPlacedOnLeft: false
                 - id: filepicker1
                 - disabled: ''
-                - onFilePick: hardcoded
+                - onFilePick: envvar
             position2:
               position2:
                 row: 1
@@ -130,7 +130,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:16:01.670Z
-            updatedAt: 2020-12-05T01:17:09.278Z
+            updatedAt: 2020-12-05T01:17:11.883Z
       - envvar:
           pluginTemplate:
             id: envvar
