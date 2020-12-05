@@ -104,6 +104,32 @@ appTemplate:
                 width: 3
             createdAt: 2020-12-05T01:11:28.882Z
             updatedAt: 2020-12-05T01:15:57.744Z
+      - filepicker2:
+          pluginTemplate:
+            id: filepicker2
+            type: widget
+            subtype: FilePickerWidget
+            template:
+              ordered:
+                - parsedValue: ''
+                - directorySelectable: false
+                - color: '#3c92dc'
+                - multipleSelectable: false
+                - text: Hard-coded S3 Upload
+                - tooltipText: ''
+                - label: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: false
+                - id: filepicker1
+                - disabled: ''
+                - onFilePick: hardcoded
+            position2:
+              position2:
+                row: 2
+                height: 1
+                width: 3
+            createdAt: 2020-12-05T01:16:01.670Z
+            updatedAt: 2020-12-05T01:16:01.670Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
