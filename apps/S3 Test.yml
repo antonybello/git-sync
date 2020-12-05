@@ -90,7 +90,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Hard coded upload
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -105,7 +105,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2020-12-05T01:11:09.148Z
-            updatedAt: 2020-12-05T01:11:09.685Z
+            updatedAt: 2020-12-05T01:11:13.092Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
