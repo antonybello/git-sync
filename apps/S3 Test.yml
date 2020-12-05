@@ -93,14 +93,14 @@ appTemplate:
                 - labelPlacedOnLeft: false
                 - id: filepicker1
                 - disabled: ''
-                - onFilePick: ''
+                - onFilePick: query1
             position2:
               position2:
                 row: 1
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:11:28.882Z
-            updatedAt: 2020-12-05T01:11:34.221Z
+            updatedAt: 2020-12-05T01:11:48.100Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
