@@ -90,7 +90,9 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Hard coded upload
+                - value: |-
+                    Hard-
+                    coded S3 upload
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -101,11 +103,12 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
+                row: 1
                 col: 1
                 height: 1
                 width: 2
             createdAt: 2020-12-05T01:11:09.148Z
-            updatedAt: 2020-12-05T01:11:13.092Z
+            updatedAt: 2020-12-05T01:11:18.955Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
