@@ -115,7 +115,7 @@ appTemplate:
                 - directorySelectable: false
                 - color: '#3c92dc'
                 - multipleSelectable: false
-                - text: Hard-coded S3 Upload
+                - text: Env var S3 Upload
                 - tooltipText: ''
                 - label: ''
                 - labelMaxWidth: ''
@@ -130,7 +130,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:16:01.670Z
-            updatedAt: 2020-12-05T01:16:02.201Z
+            updatedAt: 2020-12-05T01:16:12.359Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
