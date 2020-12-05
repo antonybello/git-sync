@@ -3,9 +3,9 @@ pageUuid: 3d4efade-3442-11eb-bb0b-c770ec24d2aa
 appTemplate:
   plugins:
     ordered:
-      - query1:
+      - hardcoded:
           pluginTemplate:
-            id: query1
+            id: hardcoded
             type: datasource
             subtype: S3Query
             resourceName: Antonys S3 Instance (Hard coded)
