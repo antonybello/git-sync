@@ -151,7 +151,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - tagSet: ''
-                - uploadFileName: hard-coded.csv
+                - uploadFileName: env-var.csv
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
@@ -205,7 +205,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-05T01:16:19.952Z
-            updatedAt: 2020-12-05T01:16:51.741Z
+            updatedAt: 2020-12-05T01:16:56.692Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
