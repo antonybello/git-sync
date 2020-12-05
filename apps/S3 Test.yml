@@ -130,7 +130,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:16:01.670Z
-            updatedAt: 2020-12-05T01:16:12.359Z
+            updatedAt: 2020-12-05T01:17:09.278Z
       - envvar:
           pluginTemplate:
             id: envvar
