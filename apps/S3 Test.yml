@@ -131,9 +131,9 @@ appTemplate:
                 width: 3
             createdAt: 2020-12-05T01:16:01.670Z
             updatedAt: 2020-12-05T01:16:12.359Z
-      - query2:
+      - envvar:
           pluginTemplate:
-            id: query2
+            id: envvar
             type: datasource
             subtype: S3Query
             resourceName: Environment Var S3
