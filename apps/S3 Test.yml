@@ -75,40 +75,6 @@ appTemplate:
                 - notificationDuration: ''
             createdAt: 2020-12-02T02:01:07.480Z
             updatedAt: 2020-12-02T02:01:07.480Z
-      - button1:
-          pluginTemplate:
-            id: button1
-            type: widget
-            subtype: ButtonWidget
-            template:
-              ordered:
-                - valueToCopy: ''
-                - color: '#3c92dc'
-                - internalUrlHashParams: ''
-                - exportFileType: csv
-                - buttonType: action
-                - exportTemplate: null
-                - url: ''
-                - newWindow: false
-                - value: |-
-                    Hard-
-                    coded S3 upload
-                - exportQuery: ''
-                - action: ''
-                - internalUrlQuery: ''
-                - internalUrlPath: ''
-                - id: button1
-                - exportFileName: ''
-                - loading: ''
-                - disabled: ''
-            position2:
-              position2:
-                row: 1
-                col: 1
-                height: 1
-                width: 2
-            createdAt: 2020-12-05T01:11:09.148Z
-            updatedAt: 2020-12-05T01:11:18.955Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
