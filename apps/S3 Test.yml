@@ -131,6 +131,81 @@ appTemplate:
                 width: 3
             createdAt: 2020-12-05T01:16:01.670Z
             updatedAt: 2020-12-05T01:16:12.359Z
+      - query2:
+          pluginTemplate:
+            id: query2
+            type: datasource
+            subtype: S3Query
+            resourceName: Hard Coded S3 Instance
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - fileKey: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - delimiter: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - tagSet: ''
+                - uploadFileName: export.csv
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - uploadData: ''
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - metadata: null
+                - actionType: list
+                - triggersOnFailure: []
+                - copySource: ''
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - prefix: ''
+                - rawData: null
+                - signedOperationOptions: ''
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - bucketName: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - signedOperationName: ''
+                - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - queryFailureConditions: ''
+                - enableCaching: false
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-12-05T01:16:19.952Z
+            updatedAt: 2020-12-05T01:16:19.952Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
