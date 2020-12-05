@@ -136,7 +136,7 @@ appTemplate:
             id: query2
             type: datasource
             subtype: S3Query
-            resourceName: Hard Coded S3 Instance
+            resourceName: Environment Var S3
             template:
               ordered:
                 - queryRefreshTime: ''
@@ -146,17 +146,17 @@ appTemplate:
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
+                - runWhenModelUpdates: false
                 - delimiter: ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - tagSet: ''
-                - uploadFileName: export.csv
+                - uploadFileName: hard-coded.csv
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
-                - uploadData: ''
+                - uploadData: '{{ filepicker2}}'
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
@@ -164,7 +164,7 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - metadata: null
-                - actionType: list
+                - actionType: upload
                 - triggersOnFailure: []
                 - copySource: ''
                 - errorTransformer: >-
@@ -205,7 +205,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-05T01:16:19.952Z
-            updatedAt: 2020-12-05T01:16:19.952Z
+            updatedAt: 2020-12-05T01:16:45.317Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
