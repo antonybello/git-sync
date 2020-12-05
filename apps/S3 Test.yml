@@ -7,38 +7,38 @@ appTemplate:
           pluginTemplate:
             id: query1
             type: datasource
-            subtype: RESTQuery
-            resourceName: REST-WithoutResource
+            subtype: S3Query
+            resourceName: Antonys S3 Instance (Hard coded)
             template:
               ordered:
                 - queryRefreshTime: ''
-                - paginationLimit: ''
-                - body: ''
                 - queryDisabledMessage: ''
+                - fileKey: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
-                - paginationPaginationField: ''
-                - headers: ''
-                - paginationEnabled: false
-                - query: 'https://httpbin.org/get'
+                - runWhenModelUpdates: false
+                - delimiter: ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
+                - tagSet: ''
+                - uploadFileName: export.csv
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
+                - uploadData: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - cookies: ''
                 - metadata: null
+                - actionType: upload
                 - triggersOnFailure: []
+                - copySource: ''
                 - errorTransformer: >-
                     // The variable 'data' allows you to reference the request's
                     data in the transformer. 
@@ -48,15 +48,20 @@ appTemplate:
                     return data.error
                 - confirmationMessage: null
                 - isFetching: false
+                - prefix: ''
                 - rawData: null
+                - signedOperationOptions: ''
                 - queryTriggerDelay: '0'
                 - watchedParams: []
                 - enableErrorTransformer: false
-                - paginationDataField: ''
+                - bucketName: ''
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
+                - signedOperationName: ''
                 - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -65,16 +70,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - queryTimeout: '10001'
+                - queryTimeout: '10000'
                 - requireConfirmation: false
-                - type: GET
                 - queryFailureConditions: ''
                 - enableCaching: false
-                - bodyType: json
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-02T02:01:07.480Z
-            updatedAt: 2020-12-02T02:01:07.480Z
+            updatedAt: 2020-12-05T01:11:51.733Z
       - filepicker1:
           pluginTemplate:
             id: filepicker1
