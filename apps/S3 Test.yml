@@ -86,7 +86,7 @@ appTemplate:
                 - directorySelectable: false
                 - color: '#3c92dc'
                 - multipleSelectable: false
-                - text: Upload File
+                - text: Hard-coded S3 Upload
                 - tooltipText: ''
                 - label: ''
                 - labelMaxWidth: ''
@@ -96,10 +96,11 @@ appTemplate:
                 - onFilePick: ''
             position2:
               position2:
+                row: 1
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:11:28.882Z
-            updatedAt: 2020-12-05T01:11:29.426Z
+            updatedAt: 2020-12-05T01:11:34.221Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
