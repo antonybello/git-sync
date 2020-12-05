@@ -156,7 +156,7 @@ appTemplate:
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
-                - uploadData: '{{ filepicker2}}'
+                - uploadData: '{{ filepicker2.file.data }}'
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
@@ -205,7 +205,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-05T01:16:19.952Z
-            updatedAt: 2020-12-05T01:16:45.317Z
+            updatedAt: 2020-12-05T01:16:51.741Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
