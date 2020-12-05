@@ -28,7 +28,7 @@ appTemplate:
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
-                - uploadData: ''
+                - uploadData: '{{ filepicker1.file.data }}'
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
@@ -77,7 +77,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-12-02T02:01:07.480Z
-            updatedAt: 2020-12-05T01:11:51.733Z
+            updatedAt: 2020-12-05T01:14:42.638Z
       - filepicker1:
           pluginTemplate:
             id: filepicker1
