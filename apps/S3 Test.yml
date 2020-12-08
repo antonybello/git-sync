@@ -103,7 +103,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-12-05T01:11:28.882Z
-            updatedAt: 2020-12-05T01:15:57.744Z
+            updatedAt: 2020-12-08T19:19:25.189Z
       - filepicker2:
           pluginTemplate:
             id: filepicker2
