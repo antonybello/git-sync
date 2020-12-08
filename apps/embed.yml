@@ -1,5 +1,5 @@
 version: 43.0.9
-pageUuid: 3d4efade-3442-11eb-bb0b-c770ec24d2aa
+pageUuid: 7647c550-386b-11eb-9440-c788a2db780c
 appTemplate:
   plugins:
     ordered:
@@ -73,8 +73,34 @@ appTemplate:
                 - bodyType: json
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
-            createdAt: 2020-12-02T02:01:07.480Z
-            updatedAt: 2020-12-02T02:01:07.480Z
+            createdAt: 2020-12-07T09:06:17.498Z
+            updatedAt: 2020-12-07T09:06:17.498Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text1
+            position2:
+              position2:
+                row: 2
+                col: 6
+                height: 1
+                width: 3
+            createdAt: 2020-12-07T09:06:19.102Z
+            updatedAt: 2020-12-07T09:06:19.635Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''

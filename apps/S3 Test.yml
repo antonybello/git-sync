@@ -1,0 +1,218 @@
+version: 43.0.9
+pageUuid: 3d4efade-3442-11eb-bb0b-c770ec24d2aa
+appTemplate:
+  plugins:
+    ordered:
+      - hardcoded:
+          pluginTemplate:
+            id: hardcoded
+            type: datasource
+            subtype: S3Query
+            resourceName: Hard Coded S3 Instance
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - fileKey: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - delimiter: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - tagSet: ''
+                - uploadFileName: hard-coded.csv
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - uploadData: '{{ filepicker1.file.data }}'
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - metadata: null
+                - actionType: upload
+                - triggersOnFailure: []
+                - copySource: ''
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - prefix: ''
+                - rawData: null
+                - signedOperationOptions: ''
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - bucketName: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - signedOperationName: ''
+                - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - queryFailureConditions: ''
+                - enableCaching: false
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-12-02T02:01:07.480Z
+            updatedAt: 2020-12-05T01:17:01.122Z
+      - filepicker1:
+          pluginTemplate:
+            id: filepicker1
+            type: widget
+            subtype: FilePickerWidget
+            template:
+              ordered:
+                - parsedValue: ''
+                - directorySelectable: false
+                - color: '#3c92dc'
+                - multipleSelectable: false
+                - text: Hard-coded S3 Upload
+                - tooltipText: ''
+                - label: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: false
+                - id: filepicker1
+                - disabled: ''
+                - onFilePick: hardcoded
+            position2:
+              position2:
+                row: 1
+                height: 1
+                width: 3
+            createdAt: 2020-12-05T01:11:28.882Z
+            updatedAt: 2020-12-05T01:15:57.744Z
+      - filepicker2:
+          pluginTemplate:
+            id: filepicker2
+            type: widget
+            subtype: FilePickerWidget
+            template:
+              ordered:
+                - parsedValue: ''
+                - directorySelectable: false
+                - color: '#3c92dc'
+                - multipleSelectable: false
+                - text: Env var S3 Upload
+                - tooltipText: ''
+                - label: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: false
+                - id: filepicker1
+                - disabled: ''
+                - onFilePick: envvar
+            position2:
+              position2:
+                row: 1
+                col: 4
+                height: 1
+                width: 3
+            createdAt: 2020-12-05T01:16:01.670Z
+            updatedAt: 2020-12-05T01:17:16.470Z
+      - envvar:
+          pluginTemplate:
+            id: envvar
+            type: datasource
+            subtype: S3Query
+            resourceName: Environment Var S3
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - fileKey: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - delimiter: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - tagSet: ''
+                - uploadFileName: env-var.csv
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - uploadData: '{{ filepicker2.file.data }}'
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - metadata: null
+                - actionType: upload
+                - triggersOnFailure: []
+                - copySource: ''
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - prefix: ''
+                - rawData: null
+                - signedOperationOptions: ''
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - bucketName: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - signedOperationName: ''
+                - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - queryFailureConditions: ''
+                - enableCaching: false
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-12-05T01:16:19.952Z
+            updatedAt: 2020-12-05T01:16:56.692Z
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  version: 2.64.50
+  responsiveLayoutDisabled: false
+  createdAt: null
